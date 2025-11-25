@@ -1,0 +1,19 @@
+main {
+    /* background-color: lightyellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.music-content {
+    margin-top: 30em;
+    width: 91em;
+}
+
+.music-content img {
+    height: 20em;
+    width: 30em;
+    object-fit: cover;
+    margin-bottom: 0.5em;
+}

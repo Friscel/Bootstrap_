@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOTSTRAP</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+        integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="content.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Music Hub</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Genre
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Log in</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="music-content">
+            <div class="first-line-container">
+                <img src="https://media0.faz.net/image/w1240/82434fec4ef0/w2650h1491x2y0/202508/1.10637396/das-cover-von-the-life-of-a.jpg" alt="img1">
+                <img src="https://billboardphilippines.com/wp-content/uploads/2025/03/CUP-OF-JOE-FTR-IMG.jpg" alt="img2">
+                <img src="https://media0.faz.net/image/w1240/82434fec4ef0/w2650h1491x2y0/202508/1.10637396/das-cover-von-the-life-of-a.jpg" alt="img3">
+            </div>
+            <div class="second-line-container">
+                <img src="https://cdn.aria.com.au/coverart/title/31019826-Man-I-Need-Olivia-Dean-192x192.jfif?ts=638914541247843997" alt="img4">
+                <img src="https://youknowigotsoul.com/wp-content/uploads/2025/06/Kehlani-Folded.jpg" alt="img5">
+                <img src="https://lyricsworldyou.com/wp-content/uploads/2025/09/Olivia-dean-so-easy-to-fall-in-love-lyrics.webp" alt="img6">
+            </div>
+            <div class="third-line-container">
+                <img src="https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5d/d5/ad/5dd5ad1b-fabf-9218-77f0-3adbfd5328ac/054391237118.jpg/1200x1200bf-60.jpg" alt="img7">
+                <img src="https://entertainment.inquirer.net/files/2025/07/K-pop-Demon-Hunters-Golden-07072025-2048x1364.png" alt="img8">
+                <img src="https://images.genius.com/19054848b6c8ead0eacccd046ce03920.1000x1000x1.jpg" alt="img9">
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
